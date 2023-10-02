@@ -8,7 +8,7 @@ const prompt = require('prompt-sync')();
 
             if(pergunta === 'sim' || pergunta === "s"){
                 let conta = valor * cont
-                console.log("3 X",cont, "=",conta);
+                console.log(valor,"X",cont, "=",conta);
             }else{
                     console.log("Programa Encerrado :D ");
                 break;}
